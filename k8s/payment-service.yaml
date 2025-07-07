@@ -17,11 +17,6 @@ spec:
           image: ghcr.io/karlien2918/beaver:payment-service-latest
           ports:
             - containerPort: 8188
-          env:
-            - name: DATABASE_URL
-              value: "your-db-connection-string"
-            - name: API_KEY
-              value: "your-api-key"
           resources:
             requests:
               memory: "256Mi"
